@@ -56,7 +56,8 @@ def scratch_the_num(oldfile, newfile):
         outfile.write(theline[5:])
     outfile.close
     infile.close
-    
+
+#creating a file
 myfile = open("test.txt", "w")
 myfile.write("My fisnakerst file written from Python\n")
 myfile.write("---------------------------------\n")
